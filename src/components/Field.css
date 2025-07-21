@@ -1,0 +1,46 @@
+
+
+.field-container {
+  border-left: 2px solid #ddd;
+  padding-left: 16px;
+  margin-bottom: 12px;
+}
+
+.field-space {
+  margin-bottom: 8px;
+}
+
+.field-name-input {
+  width: 160px;
+}
+
+.field-type-select {
+  width: 120px;
+}
+
+.delete-button {
+  border: none;
+  background: transparent;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  margin-top: -6px;
+}
+
+.delete-button-icon {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.add-nested-button {
+  margin-top: 8px;
+  background-color: #1890ff;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
