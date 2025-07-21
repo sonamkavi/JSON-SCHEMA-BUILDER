@@ -1,12 +1,49 @@
-# React + Vite
+<!DOCTYPE html><html>
+  <head>
+   
+  </head>
+  <body>
+    <h1>JSON Schema Builder</h1>
+    <p><strong></strong> A visual JSON schema builder built using React and Ant Design.</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   <h2>🔧 Features</h2>
+    <ul>
+      <li>Add, edit, and delete fields dynamically</li>
+      <li>Support for nested fields and data types</li>
+      <li>Live JSON preview based on user inputs</li>
+      <li>Toggle between raw and empty states</li>
+      <li>Styled UI using Ant Design</li>
+    </ul>
 
-Currently, two official plugins are available:
+   <h2>🚀 Getting Started</h2>
+    <ol>
+      <li>Clone the repository</li>
+      <pre><code>git clone https://github.com/sonamkavi/JSON-SCHEMA-BUILDER.git</code></pre>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   <li>Install dependencies</li>
+      <pre><code>npm install</code></pre>
 
-## Expanding the ESLint configuration
+   <li>Start the development server</li>
+      <pre><code>npm run dev</code></pre>
+    </ol>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  <h2>📁 Folder Structure</h2>
+    <pre>
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Field.jsx
+│   │   └── SchemaBuilder.jsx
+│   └── App.jsx
+├── package.json
+├── vite.config.js
+└── index.html
+    </pre>
+
+   <h2>📸 Preview</h2>
+    <p>A simple UI to build JSON schemas interactively and view them in real-time.</p>
+
+   <h2>📜 License</h2>
+    <p>This project is for learning/demo purposes.</p>
+  </body>
+</html>
